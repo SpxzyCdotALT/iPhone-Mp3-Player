@@ -1,0 +1,56 @@
+Ai Prompt : Music Player for ios 18 threw PWAG
+
+Let’s make a mp3 player, i want it to be the best and the most customizable
+
+Tabs : tabs will be at the lower side of the screen. The tabs will be : Songs, Artists, Album, Playlists and Settings. They will be placed inside a panel/frame that will have that slightly transparent ios 26 style 
+
+Songs : Shows the list of uploaded songs
+It will have this sort of layout
+
+Top left : title label : ‘Song’
+On the right add a button add/upload a mp3 file, it can just directly take a video and take the audio from it, it can also take .mp3 and .mp4 files from the file manager
+
+Next to it (on the left) a button that filtre all the songs : newest, a-z, z-a, longest, shortest
+Slightly under it, make a search bar to filtrer
+
+Note : When user holds a button, it will show the features : add to queue, add to favorite, add to playlist, share, edit metadata, delete. Also load 20 songs max then when users scrolls down, load more, etc. 
+
+Artists tab :
+Shows a list (instead of a gridded (up to down), do a two cube per line type of grid layout, where it’ll be all the songs where from the data for the artist (from the metadata) put them all in that case
+Like songs, add the left up label that says ‘Artists’
+
+Album tab : Just like Artist, but instead of grouping by artist threw metadata, group album threw metadata
+
+Playlist : just like artist, but user makes the playlist, also the first one is always favorite
+In favorite, it’s just the image of a heart 
+
+Settings : not much info, just recreate the layout of the ss.
+——
+Settings Content ; About 
+About : screenshot given, add themplate text ill put the rest
+Appearence : screenshot given : Dark mode, light mode, theme color (no font changer)
+Tabs : screenshot given
+(No library layout)
+Retro Mode : no retro mode
+Crossfade : screenshot given, analyze text in ss it explains the whole thing
+Equalizer : screenshot given, you can easily understand
+——
+
+Now for the section where you view the song (ss given) : close button (top left) music image  (if metadata provides no image, use blank cover), h scrollbar, pause/play, fast foward, backwards, shuffle, repeat or change speed/pitch
+
+A special detail is on the right up button (setting button image), you can add a speed changer, because alot of songs can sound better if the speed (AND PITCH) is tweaked.
+User can reset, create presets (for that specified sound) and when user makes the speed different, it ONLY SAVES FOR THE SPECIFIED SOUND. 
+
+Note : When a toggle based button (ex : shuffle, repeat), make the image another color, maybe by making the image tin different? (The image will not include a background and will be white) 
+
+Reference Screenshots should be given, recreate the layout
+
+All images are preinstalled in the github (root/Assets/(images.png)
+
+
+Images : Filtrer.png, AddSong.png, SongHeart.png, FavoritePlaylist.png, Pause.png, Play.png, Skip.png, Backwards.png, Loop.png, shuffle.png, BlankCover.png (for song) Settings.png, Song.png, Artist.png, Album.png, Playlist.png, Create.png (to add song/playlist)
+
+Note 2 : When doing shuffle, do not repeat the same songs, always do a random NEW song
+When doing repeat, always do at the end of the list, so if user does a playlist, repeat it, and if user plays all the songs in songs tab, it’ll take it as if all the songs are in a playlist, so it’ll loop all of these songs
+
+I want it to be so when i open the app on my phone it will install as PWAg so user can always use it offline
